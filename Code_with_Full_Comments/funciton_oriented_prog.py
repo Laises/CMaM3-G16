@@ -57,7 +57,7 @@ def write_file(data):
     # This ensures particle displacements can be stored cleanly
     if os.path.exists(file_name): # If a same-name exists, remove the previous file
         os.remove(file_name) # Perform clean over-writing
-    np.save(file=file_name, arr = data) # Save particle displacement values for plotting
+    np.save(file = file_name, arr = data) # Save particle displacement values for plotting
 
 
 # Calculate & Store the acceleration of all particles exc. two fixed end points
