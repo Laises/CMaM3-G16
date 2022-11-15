@@ -15,7 +15,7 @@ n_b = start_conditions.n_b + 2 # Number of oscillators + the two fixed end point
 rho = start_conditions.rho # Mass per unit length (Density)
 alpha = start_conditions.alpha # Non-linear coefficient
 k_young = start_conditions.k_young # Young's modulus
-init_type = start_conditions.init_type # i\Initial conditions
+init_type = start_conditions.init_type # Initial conditions
 
 dt = start_conditions.dt # Time step
 final_time = start_conditions.final_time # Total simulation time in seconds
