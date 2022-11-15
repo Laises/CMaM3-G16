@@ -127,7 +127,7 @@ def graph_from_data(data):
 
 # Extract stored particle displacements from the text file to generate plotting
 def graph_from_file(file_name):
-    data = read_file(file_name) # Extract the text file
+    data = read_file(file_name) # Extract the file containing particle displacements
     # Generate animated plotting
     # Function "animate_from_data()" sets particle displacements as y-axis values
     ani = animation.FuncAnimation(
