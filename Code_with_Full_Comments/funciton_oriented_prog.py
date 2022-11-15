@@ -52,7 +52,6 @@ def read_file(file_name):
 
 # Function to write particle displacements at every time frame into a text file
 def write_file(data):
-    
     file_name = "FPUT_experiment{}{}.npy".format(dt, n_b)
     # Check whether a file w/ a same name under the file exist or not
     # This ensures particle displacements can be stored cleanly
